@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/fitnes"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitnesApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Registr"
+            android:exported="false" />
+        <activity
+            android:name=".Avtorizachia"
+            android:exported="false" />
+        <activity
+            android:name=".SportInvent"
+            android:exported="false" />
+        <activity
+            android:name=".Eda"
+            android:exported="false" />
+        <activity
+            android:name=".Trener"
+            android:exported="false" />
+        <activity
+            android:name=".zall"
+            android:exported="false" />
+        <activity
+            android:name=".VseYslugi"
+            android:exported="false" />
+        <activity
+            android:name=".YslygiAndTovari"
+            android:exported="false" />
+        <activity
+            android:name=".IMT"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".Stretching"
+            android:exported="false" />
+        <activity
+            android:name=".Cardio"
+            android:exported="false" />
+        <activity
+            android:name=".Sila"
+            android:exported="false" />
+        <activity
+            android:name=".VidiTrenirovok"
+            android:exported="false" />
+        <activity
+            android:name=".Shagi"
+            android:exported="false" />
+        <activity
+            android:name=".Soveti"
+            android:exported="false" />
+        <activity
+            android:name=".Run"
+            android:exported="false" />
+        <activity
+            android:name=".Programm"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTwo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Base.Theme.FitnesApp.Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

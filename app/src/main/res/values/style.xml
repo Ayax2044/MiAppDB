@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.FitnesApp.Launcher">
+        <item name="android:windowBackground">@drawable/start</item>
+    </style>
+</resources>
